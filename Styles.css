@@ -1,0 +1,148 @@
+*
+{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+   
+   
+}
+.header
+{
+    overflow-x: hidden;
+    
+}
+.nav-link:hover
+{
+color: #0dcaf0 !important;
+}
+.Header_font
+{
+    margin-top: 175px;
+    padding-left: 80px;
+}
+.head
+{
+    margin-top: 160px;
+    margin-bottom: 0;
+}
+.Box_Section
+{
+    height: 65vh;
+}
+.head_text
+{
+    font-size: 20px ;
+}
+.box
+{
+    background: black;
+    width: 85vw;
+    height: 3px;
+    margin: 50px 0;
+    display: flex;
+}
+.vertical
+{
+    width: 1px;
+    background-color: black;
+    height: 80px;
+    margin: 0 100px;
+
+}
+.vertical-title
+{
+position: relative;
+top: 80px;
+font-size: 20px;
+width: 200px;
+}
+.vertical_dsc
+{
+position: relative;
+top: 100px;
+color: grey;
+width: 150px;
+font-size: 12px;
+}
+.Contact
+{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin: 80px auto;
+    max-width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.contact_ul li 
+{
+display: flex;
+align-items: center;
+margin: 20px 0 ;
+}
+.contact_ul li img
+{ 
+    width: 20px; 
+    margin-right: 10px;
+}
+.btn4
+{
+ background-color:#0dcaf0;
+  color: #ffffff;
+  padding: 10px 25px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.arrow5
+{
+    margin-left: 10px;
+}
+.Contact form input, .Contact form textarea
+{
+    display: block;
+    width: 100%;
+    background-color:#0dcaf0;
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    resize: none;
+
+}
+.Contact form input::placeholder
+{
+    color: white;
+    
+} 
+.Contact form textarea::placeholder
+{
+    color: white;
+}
+textarea:focus, input:focus {
+    color: #ffffff;
+}
+.Contact-col span 
+{
+    display: block;
+    margin: 20px 0;
+}
+@media (max-width:800px)
+{
+    .Contact
+    {
+       display: block;
+        
+    }
+    .Contact-col
+    {
+        padding: 20px;
+    }
+}
+
